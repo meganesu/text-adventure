@@ -23,7 +23,7 @@ while not playerHasWon:
 
     if room == 0:
         # Print room description and get user input
-        print("\nRoom 0 description")
+        print("\nRoom 0 description - Field")
         input = raw_input('> ').lower()
 
         # Do room action based on input
@@ -34,7 +34,7 @@ while not playerHasWon:
 
     elif room == 1:
         # Print room description and get user input
-        print("\nRoom 1 description")
+        print("\nRoom 1 description - Hallway")
         input = raw_input('> ').lower()
 
         # Do room action based on input
@@ -47,7 +47,7 @@ while not playerHasWon:
 
     elif room == 2:
         # Print room description and get user input
-        print("\nRoom 2 description")
+        print("\nRoom 2 description - Small room")
         input = raw_input('> ').lower()
 
         # Do room action based on input
@@ -66,7 +66,7 @@ while not playerHasWon:
 
     elif room == 3:
         # Print room description and get user input
-        print("\nRoom 3 description")
+        print("\nRoom 3 description - Circular room")
         input = raw_input('> ').lower()
 
         # Do room action based on input
@@ -76,7 +76,7 @@ while not playerHasWon:
 
     elif room == 4:
         # Print room description and get user input
-        print("\nRoom 4 description")
+        print("\nRoom 4 description - Spider den")
         input = raw_input('> ').lower()
 
         # Do room action based on input
@@ -86,7 +86,7 @@ while not playerHasWon:
 
     elif room == 5:
         # Print room description and get user input
-        print("\nRoom 5 description")
+        print("\nRoom 5 description - Treasury")
         input = raw_input('> ').lower()
 
         # Do room action based on input

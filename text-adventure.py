@@ -54,6 +54,45 @@ while not playerHasWon:
         if input == 'n' or input == 'north':
             room = 1
             continue
+        elif input == 's' or input == 'south':
+            room = 5
+            continue
+        elif input == 'w' or input == 'west':
+            room = 4
+            continue
+        elif input == 'e' or input == 'east':
+            room = 3
+            continue
+
+    elif room == 3:
+        # Print room description and get user input
+        print("\nRoom 3 description")
+        input = raw_input('> ').lower()
+
+        # Do room action based on input
+        if input == 'w' or input == 'west':
+            room = 2
+            continue
+
+    elif room == 4:
+        # Print room description and get user input
+        print("\nRoom 4 description")
+        input = raw_input('> ').lower()
+
+        # Do room action based on input
+        if input == 'e' or input == 'east':
+            room = 2
+            continue
+
+    elif room == 5:
+        # Print room description and get user input
+        print("\nRoom 5 description")
+        input = raw_input('> ').lower()
+
+        # Do room action based on input
+        if input == 'n' or input == 'north':
+            room = 2
+            continue
         elif input == 'take crystal':
             playerHasWon = True
             break
